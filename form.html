@@ -1,0 +1,75 @@
+<DOCTYPE!HTML>
+<html>
+  <head>
+    <script> 
+function AA()                                    
+{ 
+    var First Name = document.forms["RegForm"]["Name"];               
+    var email = document.forms["RegForm"]["EMail"];   
+    var Password = document.forms["RegForm"]["Password"];  
+    
+   
+    if (name.value == "")                                  
+    { 
+        window.alert("Please enter your name."); 
+        name.focus(); 
+        return false; 
+    } 
+   
+    
+       
+    if (Email.value == "")                                   
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        Email.focus(); 
+        return false; 
+    } 
+   
+    if (Email.value.indexOf("@", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        Email.focus(); 
+        return false; 
+    } 
+   
+    if (Email.value.indexOf(".", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        Email.focus(); 
+        return false; 
+    } 
+   
+    
+   
+    if (Password.value == "")                        
+    { 
+        window.alert("Please enter your password"); 
+        Password.focus(); 
+        return false; 
+    } 
+   
+  
+}</script> 
+    <style>
+      h3 {
+        background-color:Grey
+          
+      }
+      </style>
+  </head>
+   <title>Form Validation</title> 
+  <body>
+   <h3 style="text-align: center"> GET STARTED TODAY </h3>  
+    <form action="form val.php" method="get">
+      <table>
+     <tr><td>First Name:<br><input type="text"
+                                   placeholder="Enter the name"></td><br>
+      <td>Last Name:<br><input type="text"  
+                       placeholder="Enter the name"><br></tr></td>
+      <tr><td>Email:<br><input type="text" placeholder="Enter the email">
+      <br></td>
+     <td> Password:<br><input type="text" placeholder="Enter the password"><tr></td>
+    <tr><td><br>    <button type="text" align="centre" >Claim your free trail</button></tr></td></table>
+ <a href=" ">https://codepen.io/aravind0712t/pen/zVwyyv</a>
+  </body>
+    </html>
