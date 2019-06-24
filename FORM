@@ -1,0 +1,47 @@
+<!DOCTYPE heml>
+<html>
+<head>
+  <title>ValidationForm</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div>
+    <div class="container" id="cont" style="border:1px solid black;position:"relative";>
+      <div class="world">
+                        <br>
+      <div class="top" style="background-color:#637a91;width:75%;text-align:center;color:white;padding:1px;">
+        <h2 style="color:white,background-color:#637a91">Get start today!</h2>
+      </div>
+                                                        <br>
+      <form action="" method="">
+        <label>First Name</label>
+         &nbsp &nbsp &nbsp &nbsp
+        &nbsp &nbsp &nbsp &nbsp
+        &nbsp &nbsp
+        
+        <label>Last Name</label>
+        <br> 
+        <input type="text" name="fname" placeholder="firstname" required>
+        <input type="text" name="lname" placeholder="lastname" required>
+        <br> 
+        <label>Email Address</label>
+                 &nbsp &nbsp &nbsp &nbsp
+        &nbsp &nbsp &nbsp &nbsp
+        
+        <label>Password</label>
+        <br>
+        <input type="text" name="email" placeholder="abc@xyz.com" required>
+        <input type="text" name="pswd" required>
+        <br>
+        <br>
+        
+        <button type="button" class="btn btn-success" style="width:75%">Claim your free trail</button>
+        <h6>you are agreeing to our <a href="#">Terms and Services </a></h6>
+        </div>
+        </div>
+  </div>
+                                               </html>
+</body>  
